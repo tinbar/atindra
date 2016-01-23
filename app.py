@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask
+from flask import Flask, Response, request, render_template, flash, redirect, session, url_for, json, make_response
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -11,7 +11,6 @@ import models
 
 @app.route('/')
 def hello():
-	return 'Hello!'
-
+	return render_template('index.html')
 if __name__ == '__main__':
 	app.run()
