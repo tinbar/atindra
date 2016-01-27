@@ -11,6 +11,10 @@ import models
 
 @app.route('/')
 def hello():
+	return ''
+
+@app.route('/test_index')
+def test():
 	return render_template('base.html')
 	
 if __name__ == '__main__':
