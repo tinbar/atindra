@@ -15,6 +15,7 @@ class User(db.Model):
     city_of_residence = db.Column(db.String())
     # no address param since the user will have interval readings which themselves have address values
     user_token = db.relationship('UserToken', cascade='all, delete, delete-orphan', backref='user', uselist=False)
+    blogs = db.relationship('Blog', cascade='all, delete, delete-orphan', backref='user')
     confirmed = db.Column(db.Boolean, default=False)
     confirmed_on = db.Column(db.DateTime)
 
@@ -26,6 +27,15 @@ class UserToken(db.Model):
     access_token = db.Column(db.String())
     refresh_token = db.Column(db.String())
     resource_uri = db.Column(db.String())
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+
+    def __repr__(self):
+        return '<id {}>'.format(self.id)
+
+class Blog(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String())
+    body = db.Column(db.String())
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
