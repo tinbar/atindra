@@ -1,0 +1,10 @@
+/* line 1, ../../sass/nav-bar.scss */
+.container-fluid {
+  background: white;
+}
+
+/* line 5, ../../sass/nav-bar.scss */
+li > a {
+  color: black;
+  text-decoration: none;
+}

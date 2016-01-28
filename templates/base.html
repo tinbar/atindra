@@ -7,15 +7,20 @@
     </head>
     <body>
       <!-- Nav bar -->
-    	<div class="container">
-            <nav>
-              <ul class="nav nav-justified">
-                <li class="active"><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
+    	<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-push-3">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                      <ul class="nav nav-justified">
+                        <li class="active"><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
+        <div class="hype"></div>
     	{% block body %}{% endblock %}
         <script src="static/js/jquery-1.12.0.js"></script>
         <script src="static/js/bootstrap-sprockets.js"></script>
