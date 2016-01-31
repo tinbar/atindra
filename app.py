@@ -11,7 +11,7 @@ import models
 
 @app.route('/')
 def hello():
-	return render_template('coming_soon.html')
+	return ''
 
 @app.route('/test_index')
 def test():
