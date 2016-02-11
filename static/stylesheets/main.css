@@ -5613,7 +5613,7 @@ tbody.collapse.in {
 /* line 11, ../../sass/bootstrap/_navbar.scss */
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 40px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -5772,10 +5772,10 @@ tbody.collapse.in {
 /* line 163, ../../sass/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 10px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 50px;
+  height: 40px;
 }
 /* line 170, ../../sass/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
@@ -5798,8 +5798,8 @@ tbody.collapse.in {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -5829,16 +5829,18 @@ tbody.collapse.in {
 
 /* line 232, ../../sass/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 5px -15px;
 }
 /* line 235, ../../sass/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  font-family: Helvetica;
+  font-size: 12px;
 }
 @media (max-width: 767px) {
-  /* line 243, ../../sass/bootstrap/_navbar.scss */
+  /* line 246, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -5848,16 +5850,16 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
-  /* line 251, ../../sass/bootstrap/_navbar.scss */
+  /* line 254, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
-  /* line 255, ../../sass/bootstrap/_navbar.scss */
+  /* line 258, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 257, ../../sass/bootstrap/_navbar.scss */
+  /* line 260, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
@@ -5868,18 +5870,18 @@ tbody.collapse.in {
     float: left;
     margin: 0;
   }
-  /* line 270, ../../sass/bootstrap/_navbar.scss */
+  /* line 273, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav > li {
     float: left;
   }
-  /* line 272, ../../sass/bootstrap/_navbar.scss */
+  /* line 275, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
-/* line 286, ../../sass/bootstrap/_navbar.scss */
+/* line 289, ../../sass/bootstrap/_navbar.scss */
 .navbar-form {
   margin-left: -15px;
   margin-right: -15px;
@@ -5888,8 +5890,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 @media (min-width: 768px) {
   /* line 478, ../../sass/bootstrap/_forms.scss */
@@ -5953,17 +5955,17 @@ tbody.collapse.in {
   }
 }
 @media (max-width: 767px) {
-  /* line 298, ../../sass/bootstrap/_navbar.scss */
+  /* line 301, ../../sass/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
-  /* line 302, ../../sass/bootstrap/_navbar.scss */
+  /* line 305, ../../sass/bootstrap/_navbar.scss */
   .navbar-form .form-group:last-child {
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
-  /* line 286, ../../sass/bootstrap/_navbar.scss */
+  /* line 289, ../../sass/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
     border: 0;
@@ -5976,14 +5978,14 @@ tbody.collapse.in {
   }
 }
 
-/* line 327, ../../sass/bootstrap/_navbar.scss */
+/* line 330, ../../sass/bootstrap/_navbar.scss */
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 332, ../../sass/bootstrap/_navbar.scss */
+/* line 335, ../../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
   border-top-right-radius: 4px;
@@ -5992,29 +5994,29 @@ tbody.collapse.in {
   border-bottom-left-radius: 0;
 }
 
-/* line 343, ../../sass/bootstrap/_navbar.scss */
-.navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
 /* line 346, ../../sass/bootstrap/_navbar.scss */
+.navbar-btn {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+/* line 349, ../../sass/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 352, ../../sass/bootstrap/_navbar.scss */
+.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+/* line 362, ../../sass/bootstrap/_navbar.scss */
+.navbar-text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 349, ../../sass/bootstrap/_navbar.scss */
-.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-/* line 359, ../../sass/bootstrap/_navbar.scss */
-.navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 @media (min-width: 768px) {
-  /* line 359, ../../sass/bootstrap/_navbar.scss */
+  /* line 362, ../../sass/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
     margin-left: 15px;
@@ -6023,227 +6025,233 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 379, ../../sass/bootstrap/_navbar.scss */
+  /* line 382, ../../sass/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
   }
 
-  /* line 382, ../../sass/bootstrap/_navbar.scss */
+  /* line 385, ../../sass/bootstrap/_navbar.scss */
   .navbar-right {
     float: right !important;
     margin-right: -15px;
   }
-  /* line 386, ../../sass/bootstrap/_navbar.scss */
+  /* line 389, ../../sass/bootstrap/_navbar.scss */
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
 }
-/* line 397, ../../sass/bootstrap/_navbar.scss */
+/* line 400, ../../sass/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #353535;
+  border-color: #242424;
 }
-/* line 401, ../../sass/bootstrap/_navbar.scss */
+/* line 404, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #dddddd;
 }
-/* line 403, ../../sass/bootstrap/_navbar.scss */
+/* line 406, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #c4c4c4;
   background-color: transparent;
 }
-/* line 410, ../../sass/bootstrap/_navbar.scss */
+/* line 413, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
   color: #777;
 }
-/* line 415, ../../sass/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > li > a {
-  color: #777;
-}
 /* line 418, ../../sass/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #dddddd;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: 1.0ss;
+}
+/* line 427, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #aaaaaa;
   background-color: transparent;
 }
-/* line 425, ../../sass/bootstrap/_navbar.scss */
+/* line 434, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
+  color: #aaaaaa;
+  background-color: inherit;
 }
-/* line 433, ../../sass/bootstrap/_navbar.scss */
+/* line 442, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
 }
-/* line 442, ../../sass/bootstrap/_navbar.scss */
+/* line 451, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
   border-color: #ddd;
 }
-/* line 444, ../../sass/bootstrap/_navbar.scss */
+/* line 453, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
 }
-/* line 448, ../../sass/bootstrap/_navbar.scss */
+/* line 457, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
-/* line 453, ../../sass/bootstrap/_navbar.scss */
+/* line 462, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #242424;
 }
-/* line 462, ../../sass/bootstrap/_navbar.scss */
+/* line 471, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
-  color: #555;
+  background-color: inherit;
+  color: #aaaaaa;
 }
 @media (max-width: 767px) {
-  /* line 473, ../../sass/bootstrap/_navbar.scss */
+  /* line 482, ../../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #dddddd;
   }
-  /* line 475, ../../sass/bootstrap/_navbar.scss */
+  /* line 484, ../../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
+    color: #aaaaaa;
     background-color: transparent;
   }
-  /* line 482, ../../sass/bootstrap/_navbar.scss */
+  /* line 491, ../../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7;
+    color: #aaaaaa;
+    background-color: inherit;
   }
-  /* line 490, ../../sass/bootstrap/_navbar.scss */
+  /* line 499, ../../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
     background-color: transparent;
   }
 }
-/* line 506, ../../sass/bootstrap/_navbar.scss */
-.navbar-default .navbar-link {
-  color: #777;
-}
-/* line 508, ../../sass/bootstrap/_navbar.scss */
-.navbar-default .navbar-link:hover {
-  color: #333;
-}
-/* line 513, ../../sass/bootstrap/_navbar.scss */
-.navbar-default .btn-link {
-  color: #777;
-}
 /* line 515, ../../sass/bootstrap/_navbar.scss */
-.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-  color: #333;
+.navbar-default .navbar-link {
+  color: #dddddd;
 }
-/* line 521, ../../sass/bootstrap/_navbar.scss */
+/* line 517, ../../sass/bootstrap/_navbar.scss */
+.navbar-default .navbar-link:hover {
+  color: #aaaaaa;
+}
+/* line 522, ../../sass/bootstrap/_navbar.scss */
+.navbar-default .btn-link {
+  color: #dddddd;
+}
+/* line 524, ../../sass/bootstrap/_navbar.scss */
+.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: #aaaaaa;
+}
+/* line 530, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 
-/* line 531, ../../sass/bootstrap/_navbar.scss */
+/* line 540, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #222;
   border-color: #090909;
 }
-/* line 535, ../../sass/bootstrap/_navbar.scss */
+/* line 544, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
-/* line 537, ../../sass/bootstrap/_navbar.scss */
+/* line 546, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: #fff;
   background-color: transparent;
 }
-/* line 544, ../../sass/bootstrap/_navbar.scss */
+/* line 553, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
   color: #9d9d9d;
 }
-/* line 549, ../../sass/bootstrap/_navbar.scss */
+/* line 558, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
 }
-/* line 552, ../../sass/bootstrap/_navbar.scss */
+/* line 561, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
 }
-/* line 559, ../../sass/bootstrap/_navbar.scss */
+/* line 568, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #090909;
 }
-/* line 567, ../../sass/bootstrap/_navbar.scss */
+/* line 576, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444;
   background-color: transparent;
 }
-/* line 577, ../../sass/bootstrap/_navbar.scss */
+/* line 586, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
   border-color: #333;
 }
-/* line 579, ../../sass/bootstrap/_navbar.scss */
+/* line 588, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #333;
 }
-/* line 583, ../../sass/bootstrap/_navbar.scss */
+/* line 592, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 588, ../../sass/bootstrap/_navbar.scss */
+/* line 597, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-/* line 596, ../../sass/bootstrap/_navbar.scss */
+/* line 605, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #090909;
   color: #fff;
 }
 @media (max-width: 767px) {
-  /* line 607, ../../sass/bootstrap/_navbar.scss */
+  /* line 616, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
-  /* line 610, ../../sass/bootstrap/_navbar.scss */
+  /* line 619, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #090909;
   }
-  /* line 613, ../../sass/bootstrap/_navbar.scss */
+  /* line 622, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
-  /* line 615, ../../sass/bootstrap/_navbar.scss */
+  /* line 624, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
     background-color: transparent;
   }
-  /* line 622, ../../sass/bootstrap/_navbar.scss */
+  /* line 631, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #090909;
   }
-  /* line 630, ../../sass/bootstrap/_navbar.scss */
+  /* line 639, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444;
     background-color: transparent;
   }
 }
-/* line 641, ../../sass/bootstrap/_navbar.scss */
+/* line 650, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
   color: #9d9d9d;
 }
-/* line 643, ../../sass/bootstrap/_navbar.scss */
+/* line 652, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
   color: #fff;
 }
-/* line 648, ../../sass/bootstrap/_navbar.scss */
+/* line 657, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
   color: #9d9d9d;
 }
-/* line 650, ../../sass/bootstrap/_navbar.scss */
+/* line 659, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
   color: #fff;
 }
-/* line 656, ../../sass/bootstrap/_navbar.scss */
+/* line 665, ../../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
@@ -8792,11 +8800,11 @@ button.close {
   }
 }
 /* line 1, ../../sass/nav-bar.scss */
-.navbar {
-  background-color: blue;
+.navbar-nav > li > a {
+  font-weight: 100;
 }
 
-/* line 5, ../../sass/main.scss */
+/* line 6, ../../sass/main.scss */
 .body-block {
   height: 1000px;
 }

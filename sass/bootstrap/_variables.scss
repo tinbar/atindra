@@ -373,6 +373,11 @@ $navbar-default-color:             #777 !default;
 $navbar-default-bg:                #f8f8f8 !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
+// Custom default additions; Author: Atindra G
+// Add default font
+$navbar-default-font:              Helvetica !default;
+$navbar-default-font-size:         12px;
+
 // Navbar links
 $navbar-default-link-color:                #777 !default;
 $navbar-default-link-hover-color:          #333 !default;

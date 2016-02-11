@@ -1,0 +1,12 @@
+// Nav bar height
+$navbar-height: 40px;
+// Nav bar default bg
+$navbar-default-bg: #353535;
+// Nav bar default link color
+$navbar-default-link-color: #dddddd;
+// Nav bar default hover link color; same as active color
+$navbar-default-link-hover-color: #aaaaaa;
+// Active link background
+$navbar-default-link-active-bg: inherit;
+// Color for active link, slightly darker than default link color
+$navbar-default-link-active-color : $navbar-default-link-hover-color;
