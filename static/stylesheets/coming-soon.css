@@ -6061,12 +6061,12 @@ tbody.collapse.in {
 /* line 418, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #777;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
   /* ...and now for the proper property */
-  transition: 1.0s ease;
+  transition: color 0.5s ease;
 }
 /* line 427, ../../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
