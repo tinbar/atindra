@@ -8804,7 +8804,16 @@ button.close {
   font-weight: 100;
 }
 
-/* line 6, ../../sass/main.scss */
+/*
 .body-block {
-  height: 1000px;
+	height: 1000px;
 }
+*/
+/*
+.jumbotron {
+	background-image:url('/static/img/IMG_2715.png');
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*/
