@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 import models
 
 @app.route('/')
-def hello():
+def index():
 	return render_template('index.html')
 
 @app.route('/test_index')
