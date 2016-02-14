@@ -7,55 +7,57 @@
     </head>
     <body>
         <!-- Nav bar -->
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbar-id">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a id="navbar-brand-id" class="navbar-brand" href="#">=</a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                            <!--
-                                <li class="active"><a href="#">Professional</a></li>
-                            -->
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Professional<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Resume</a></li>
-                                        <li><a href="#">Links</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li class="dropdown-header">Projects</li>
-                                        <li><a href="#">Wattsly</a></li>
-                                        <li><a href="#">LC</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#about">Blog</a></li>
-                                <li><a href="#contact">Photos</a></li>
+        <div class="full-body">
+            <nav class="navbar navbar-default navbar-fixed-top" id="navbar-id">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a id="navbar-brand-id" class="navbar-brand" href="#">=</a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
                                 <!--
-                                <li><a href="#contact">Social</a></li>
-                                <li><a href="#contact">Math</a></li>
-                                <li><a href="#contact">Programming</a></li>
-                                <li><a href="#contact">Music</a></li>
+                                    <li class="active"><a href="#">Professional</a></li>
                                 -->
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                            <!-- insert right nav bar items -->
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div><!--/.nav-collapse -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Professional<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Resume</a></li>
+                                            <li><a href="#">Links</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="dropdown-header">Projects</li>
+                                            <li><a href="#">Wattsly</a></li>
+                                            <li><a href="#">LC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#about">Blog</a></li>
+                                    <li><a href="#contact">Photos</a></li>
+                                    <!--
+                                    <li><a href="#contact">Social</a></li>
+                                    <li><a href="#contact">Math</a></li>
+                                    <li><a href="#contact">Programming</a></li>
+                                    <li><a href="#contact">Music</a></li>
+                                    -->
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                <!-- insert right nav bar items -->
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div><!--/.nav-collapse -->
+                        </div>
                     </div>
                 </div>
+            </nav>
+            <div class="body-block">
+        	   {% block body %}{% endblock %}
             </div>
-        </nav>
-        <div class="body-block">
-    	{% block body %}{% endblock %}
         </div>
         <script src="static/js/jquery-1.12.0.js"></script>
         <script src="static/js/bootstrap-sprockets.js"></script>

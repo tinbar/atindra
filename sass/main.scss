@@ -4,10 +4,15 @@
 @import 'nav-bar';
 
 /*
-.body-block {
-	height: 1000px;
+.full-body {
+	background-color: $navbar-default-bg;
 }
 */
+
+.body-block {
+	// add padding to top since this will display underneath the nav bar
+	padding-top: $navbar-height;
+}
 
 /*
 .jumbotron {
