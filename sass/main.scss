@@ -11,14 +11,19 @@
 
 .body-block {
 	// add padding to top since this will display underneath the nav bar
-	padding-top: $navbar-height;
+	margin-top: $navbar-height;
+	//padding-top: $navbar-height;
 }
 
-/*
 .jumbotron {
-	background-image:url('/static/img/IMG_2715.png');
-	height: 1000px;
-	background-repeat: no-repeat;
-	background-size: cover;
+	// Remove the margin set by default
+	margin-bottom: 0px;
 }
-*/
+
+.name-banner {
+	height: 200px;
+	h1,
+	.h1 {
+		text-align: center;
+	}
+}

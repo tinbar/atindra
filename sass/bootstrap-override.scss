@@ -10,3 +10,5 @@ $navbar-default-link-hover-color: #aaaaaa;
 $navbar-default-link-active-bg: inherit;
 // Color for active link, slightly darker than default link color
 $navbar-default-link-active-color : $navbar-default-link-hover-color;
+// transparent color background for jumbotrons so that parallax image shows up in theback
+$jumbotron-bg : transparent;
