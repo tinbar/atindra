@@ -8826,5 +8826,6 @@ button.close {
 /* line 25, ../../sass/main.scss */
 .name-banner h1,
 .name-banner .h1 {
-  text-align: center;
+  text-align: right;
+  color: #12297a;
 }
