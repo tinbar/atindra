@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Stencil;
+  src: url("/static/fonts/AG-Stencil.ttf") format("truetype");
+}
+@font-face {
+  font-family: GrandHotel;
+  src: url("/static/fonts/GrandHotel-Regular.otf");
+}

@@ -8799,6 +8799,14 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Stencil;
+  src: url("/static/fonts/AG-Stencil.ttf") format("truetype");
+}
+@font-face {
+  font-family: GrandHotel;
+  src: url("/static/fonts/GrandHotel-Regular.otf");
+}
 /* line 1, ../../sass/nav-bar.scss */
 .navbar-nav > li > a {
   font-weight: 100;
@@ -8809,23 +8817,49 @@ button.close {
 	background-color: $navbar-default-bg;
 }
 */
-/* line 12, ../../sass/main.scss */
+/* line 13, ../../sass/main.scss */
 .body-block {
   margin-top: 40px;
 }
 
-/* line 18, ../../sass/main.scss */
+/* line 19, ../../sass/main.scss */
 .jumbotron {
   margin-bottom: 0px;
 }
 
-/* line 23, ../../sass/main.scss */
+/* line 24, ../../sass/main.scss */
 .name-banner {
-  height: 200px;
+  height: 85vh;
 }
-/* line 25, ../../sass/main.scss */
-.name-banner h1,
+/* line 26, ../../sass/main.scss */
+.name-banner h1, .name-banner h2,
 .name-banner .h1 {
-  text-align: right;
-  color: #12297a;
+  text-align: center;
+}
+
+/* line 33, ../../sass/main.scss */
+.description-jumbotron {
+  height: 85vh;
+}
+
+/* line 37, ../../sass/main.scss */
+.sub-description-jumbotron {
+  height: 85vh;
+}
+
+/* line 41, ../../sass/main.scss */
+.footer {
+  padding-top: 15px;
+  height: 50px;
+}
+
+/* line 46, ../../sass/main.scss */
+#name-header {
+  font-family: GrandHotel;
+  color: white;
+}
+
+/* line 51, ../../sass/main.scss */
+#title-header {
+  font-family: Stencil;
 }

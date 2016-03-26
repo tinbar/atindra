@@ -1,6 +1,7 @@
 @import 'bootstrap-override';
 @import 'bootstrap-compass';
 @import 'bootstrap';
+@import 'custom-fonts';
 @import 'nav-bar';
 
 /*
@@ -21,14 +22,32 @@
 }
 
 .name-banner {
-	height: 200px;
-	h1,
+	height: 85vh;
+	h1, h2,
 	.h1 {
-		text-align: right;
-		color: #12297a;
+		text-align: center;
+		//color: #12297a;
 	}
 }
 
 .description-jumbotron {
-	//height: 500px;
+	height: 85vh;
+}
+
+.sub-description-jumbotron {
+	height: 85vh;
+}
+
+.footer {
+	padding-top: 15px;
+	height: 50px;
+}
+
+#name-header {
+	font-family: GrandHotel;
+	color: white;
+}
+
+#title-header {
+	font-family: Stencil;
 }

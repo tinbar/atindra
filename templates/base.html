@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <title>Atindra</title>
         <link rel="stylesheet" href="static/stylesheets/main.css">
+        <link rel="stylesheet" href="static/stylesheets/animate.css">
     </head>
     <body>
         <!-- Nav bar -->
         <div class="full-body">
-            <nav class="navbar navbar-default navbar-fixed-top" id="navbar-id">
+            <nav class="navbar navbar-default navbar-fixed-top " id="navbar-id">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -39,12 +40,10 @@
                                     </li>
                                     <li><a href="#about">Blog</a></li>
                                     <li><a href="#contact">Photos</a></li>
-                                    <!--
                                     <li><a href="#contact">Social</a></li>
                                     <li><a href="#contact">Math</a></li>
                                     <li><a href="#contact">Programming</a></li>
                                     <li><a href="#contact">Music</a></li>
-                                    -->
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
                                 <!-- insert right nav bar items -->
@@ -58,9 +57,16 @@
             <div class="body-block">
         	   {% block body %}{% endblock %}
             </div>
+            <footer class="footer">
+                <div class="container">
+                     <p class="text-muted">Place sticky footer content here.</p>
+                </div>
+            </footer>
         </div>
         <script src="static/js/jquery-1.12.0.js"></script>
         <script src="static/js/parallax.min.js"></script>
+        <script src="static/js/jquery.lettering.js"></script>
+        <script src="static/js/jquery.textillate.js"></script>
         <script src="static/js/bootstrap-sprockets.js"></script>
         <script src="static/js/bootstrap.min.js"></script>
         <script src="static/js/app.js"></script>
