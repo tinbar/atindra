@@ -9,6 +9,8 @@ db = SQLAlchemy(app)
 
 import models
 
+# edit from new comp
+
 @app.route('/')
 def index():
 	return render_template('index.html')
