@@ -1,4 +1,6 @@
 /* line 1, ../../sass/nav-bar.scss */
 .navbar-nav > li > a {
   font-weight: 100;
+  font-size: 12px;
+  font-family: Lane;
 }

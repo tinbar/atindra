@@ -20,6 +20,10 @@ def index():
 def test():
 	return ''
 	#return render_template('base.html')
+
+@app.route('/test_index_for_temp_page')
+def test_index():
+	return render_template('index.html')
 	
 if __name__ == '__main__':
 	app.run()

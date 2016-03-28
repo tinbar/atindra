@@ -6,3 +6,31 @@
   font-family: GrandHotel;
   src: url("/static/fonts/GrandHotel-Regular.otf");
 }
+@font-face {
+  font-family: AlexBrush;
+  src: url("/static/fonts/AlexBrush-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Blacklettersh;
+  src: url("/static/fonts/Blacklettersh.ttf") format("truetype");
+}
+@font-face {
+  font-family: Ailerons;
+  src: url("/static/fonts/Ailerons-Typeface.otf");
+}
+@font-face {
+  font-family: Anders;
+  src: url("/static/fonts/Anders.ttf") format("truetype");
+}
+@font-face {
+  font-family: Moonshiner-Regular;
+  src: url("/static/fonts/Moonshiner-Regular.otf");
+}
+@font-face {
+  font-family: Moonshiner-RegularLines;
+  src: url("/static/fonts/Moonshiner-RegularLines.otf");
+}
+@font-face {
+  font-family: Lane;
+  src: url("/static/fonts/Lane-Narrow.ttf") format("truetype");
+}
