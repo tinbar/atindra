@@ -8816,6 +8816,14 @@ button.close {
   src: url("/static/fonts/Blacklettersh.ttf") format("truetype");
 }
 @font-face {
+  font-family: BakersField-Bold;
+  src: url("/static/fonts/BakersField-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: BakersField-Light;
+  src: url("/static/fonts/BakersField-Light.ttf") format("truetype");
+}
+@font-face {
   font-family: Ailerons;
   src: url("/static/fonts/Ailerons-Typeface.otf");
 }
