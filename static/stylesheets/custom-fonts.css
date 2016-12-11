@@ -42,3 +42,47 @@
   font-family: Lane;
   src: url("/static/fonts/Lane-Narrow.ttf") format("truetype");
 }
+@font-face {
+  font-family: Palanquin-Bold;
+  src: url("/static/fonts/palanquin-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-ExtraLight;
+  src: url("/static/fonts/palanquin-extralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Light;
+  src: url("/static/fonts/palanquin-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Medium;
+  src: url("/static/fonts/palanquin-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Regular;
+  src: url("/static/fonts/palanquin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-SemiBold;
+  src: url("/static/fonts/palanquin-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Thin;
+  src: url("/static/fonts/palanquin-thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Bold;
+  src: url("/static/fonts/palanquindark-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Regular;
+  src: url("/static/fonts/palanquindark-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Medium;
+  src: url("/static/fonts/palanquindark-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-SemiBold;
+  src: url("/static/fonts/palanquindark-semibold.ttf") format("truetype");
+}

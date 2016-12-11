@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1459010855);
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1459010855#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1459010855) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1459010855) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1459010855) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1459010855#glyphicons_halflingsregular) format("svg");
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1475452902);
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1475452902#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1475452902) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1475452902) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1475452902) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1475452902#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../sass/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8842,6 +8842,50 @@ button.close {
 @font-face {
   font-family: Lane;
   src: url("/static/fonts/Lane-Narrow.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Bold;
+  src: url("/static/fonts/palanquin-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-ExtraLight;
+  src: url("/static/fonts/palanquin-extralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Light;
+  src: url("/static/fonts/palanquin-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Medium;
+  src: url("/static/fonts/palanquin-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Regular;
+  src: url("/static/fonts/palanquin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-SemiBold;
+  src: url("/static/fonts/palanquin-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Thin;
+  src: url("/static/fonts/palanquin-thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Bold;
+  src: url("/static/fonts/palanquindark-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Regular;
+  src: url("/static/fonts/palanquindark-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Medium;
+  src: url("/static/fonts/palanquindark-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-SemiBold;
+  src: url("/static/fonts/palanquindark-semibold.ttf") format("truetype");
 }
 /* line 1, ../../sass/nav-bar.scss */
 .navbar-nav > li > a {
