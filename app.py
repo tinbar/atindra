@@ -13,7 +13,7 @@ import models
 
 @app.route('/')
 def index():
-	return ''
+	return 'test'
 	#return render_template('index.html')
 
 @app.route('/test_index')
