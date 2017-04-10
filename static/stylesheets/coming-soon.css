@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1453745382);
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1453745382#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1453745382) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1453745382) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1453745382) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1453745382#glyphicons_halflingsregular) format("svg");
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1487477405);
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1487477405#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1487477405) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1487477405) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1487477405) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1487477405#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../sass/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8799,12 +8799,167 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../../sass/coming-soon.scss */
+@font-face {
+  font-family: Stencil;
+  src: url("/static/fonts/AG-Stencil.ttf") format("truetype");
+}
+@font-face {
+  font-family: GrandHotel;
+  src: url("/static/fonts/GrandHotel-Regular.otf");
+}
+@font-face {
+  font-family: AlexBrush;
+  src: url("/static/fonts/AlexBrush-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Blacklettersh;
+  src: url("/static/fonts/Blacklettersh.ttf") format("truetype");
+}
+@font-face {
+  font-family: BakersField-Bold;
+  src: url("/static/fonts/BakersField-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: BakersField-Light;
+  src: url("/static/fonts/BakersField-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Ailerons;
+  src: url("/static/fonts/Ailerons-Typeface.otf");
+}
+@font-face {
+  font-family: Anders;
+  src: url("/static/fonts/Anders.ttf") format("truetype");
+}
+@font-face {
+  font-family: Moonshiner-Regular;
+  src: url("/static/fonts/Moonshiner-Regular.otf");
+}
+@font-face {
+  font-family: Moonshiner-RegularLines;
+  src: url("/static/fonts/Moonshiner-RegularLines.otf");
+}
+@font-face {
+  font-family: Lane;
+  src: url("/static/fonts/Lane-Narrow.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Bold;
+  src: url("/static/fonts/palanquin-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-ExtraLight;
+  src: url("/static/fonts/palanquin-extralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Light;
+  src: url("/static/fonts/palanquin-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Medium;
+  src: url("/static/fonts/palanquin-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Regular;
+  src: url("/static/fonts/palanquin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-SemiBold;
+  src: url("/static/fonts/palanquin-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Palanquin-Thin;
+  src: url("/static/fonts/palanquin-thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Bold;
+  src: url("/static/fonts/palanquindark-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Regular;
+  src: url("/static/fonts/palanquindark-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-Medium;
+  src: url("/static/fonts/palanquindark-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: PalanquinDark-SemiBold;
+  src: url("/static/fonts/palanquindark-semibold.ttf") format("truetype");
+}
+/* line 5, ../../sass/coming-soon.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 9, ../../sass/coming-soon.scss */
 .body-block {
-  background-image: url("/static/img/img.jpg");
-  background-size: cover;
+  background-image: url("/static/img/gold_temple_full.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 19, ../../sass/coming-soon.scss */
+.coming-soon-text {
+  text-align: center;
+  padding-top: 5%;
+  font-family: Ailerons;
+  font-size: 80px;
+  color: #202020;
+  text-decoration: underline;
+}
+
+/* line 29, ../../sass/coming-soon.scss */
+.social-buttons {
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+/* line 35, ../../sass/coming-soon.scss */
+.fa {
   padding: 20px;
-  height: 1000px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* Add a hover effect if you want */
+/* line 47, ../../sass/coming-soon.scss */
+.fa:hover {
+  opacity: 0.45;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+/* line 54, ../../sass/coming-soon.scss */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+/* line 60, ../../sass/coming-soon.scss */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* line 65, ../../sass/coming-soon.scss */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* line 70, ../../sass/coming-soon.scss */
+.fa-github {
+  background: #333333;
+  color: white;
 }

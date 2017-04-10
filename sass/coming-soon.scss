@@ -1,11 +1,73 @@
 @import 'bootstrap-compass';
 @import 'bootstrap';
+@import 'custom-fonts';
 
-.body-block {
-	background-image: url('/static/img/img.jpg');
-	background-size: cover;
+body, html {
+    height: 100%;
+}
+
+.body-block { 
+	background-image: url("/static/img/gold_temple_full.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding :20px;
-    height : 1000px;
+    background-size: cover;
+}
+
+.coming-soon-text {
+	text-align: center;
+	padding-top: 5%;
+	font-family: Ailerons;
+	font-size: 80px;
+	color: #202020;
+	text-decoration: underline;
+}
+
+
+.social-buttons {
+	text-align: center;
+	padding-left:auto;
+	padding-right:auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.45;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #333333;
+  color: white;
 }
