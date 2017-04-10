@@ -11,10 +11,19 @@ import models
 
 # edit from new comp
 
-@app.route('/')
-def index():
-	return ''
-	#return render_template('index.html')
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def catchall(path):
+  return render_template('coming_soon.html')
+
+# @app.route('/')
+# def index():
+# 	return ''
+# 	#return render_template('index.html')
+
+@app.route('/coming-soon')
+def coming_soon():
+	return render_template('coming_soon.html')
 
 @app.route('/test_index')
 def test():
