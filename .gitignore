@@ -3,3 +3,7 @@ env/
 __pycache__/
 *.pyc
 .sass-cache/
+bin/
+lib/
+pip-selfcheck.json
+pyvenv.cfg
