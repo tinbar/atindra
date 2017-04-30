@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1475452902);
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1475452902#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1475452902) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1475452902) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1475452902) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1475452902#glyphicons_halflingsregular) format("svg");
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?1487477405);
+  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?&1487477405#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?1487477405) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?1487477405) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?1487477405) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?1487477405#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../sass/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8911,38 +8911,41 @@ button.close {
 
 /* line 24, ../../sass/main.scss */
 .name-banner {
-  height: 85vh;
+  height: 90vh;
 }
-/* line 26, ../../sass/main.scss */
+/* line 27, ../../sass/main.scss */
 .name-banner h1, .name-banner h2,
 .name-banner .h1 {
   text-align: center;
 }
 
-/* line 33, ../../sass/main.scss */
+/* line 34, ../../sass/main.scss */
 .description-jumbotron {
   height: 85vh;
 }
 
-/* line 37, ../../sass/main.scss */
+/* line 38, ../../sass/main.scss */
 .sub-description-jumbotron {
   height: 85vh;
 }
 
-/* line 41, ../../sass/main.scss */
+/* line 42, ../../sass/main.scss */
 .footer {
   padding-top: 15px;
   height: 50px;
 }
 
-/* line 46, ../../sass/main.scss */
+/* line 47, ../../sass/main.scss */
 #name-header {
-  font-family: AlexBrush;
+  padding-top: 100px;
+  font-family: Ailerons;
   font-size: 100px;
   color: black;
 }
 
-/* line 52, ../../sass/main.scss */
+/* line 54, ../../sass/main.scss */
 #title-header {
-  font-family: Stencil;
+  font-family: Ailerons;
+  font-size: 40px;
+  color: black;
 }

@@ -22,7 +22,8 @@
 }
 
 .name-banner {
-	height: 85vh;
+	// padding-top: 20%;
+	height: 90vh;
 	h1, h2,
 	.h1 {
 		text-align: center;
@@ -44,11 +45,14 @@
 }
 
 #name-header {
-	font-family: AlexBrush;
+	padding-top : 100px;
+	font-family: Ailerons;
 	font-size: 100px;
 	color: black;
 }
 
 #title-header {
-	font-family: Stencil;
+	font-family: Ailerons;
+	font-size: 40px;
+	color: black;
 }
